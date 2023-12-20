@@ -1,0 +1,264 @@
+@media (max-width: 1024px) {
+    .container {
+        max-width: 1190px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+
+    .inner-box {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .hero-wrapper {
+        width: 25%;
+    }
+    .hero-wrapper p {
+        width: 340px;
+        font-size: 12px;
+    }
+    .hero-wrapper h1 {
+        width: 340px;
+        font-size: 42px;
+    }
+    .large-btn {
+        font-size: 22px;
+        padding: 20px 35px;
+    }
+    .large-btn span:nth-child(1) {
+        font-size: 16px;
+    }
+    .large-btn span:nth-child(1) svg {
+        width: 16px;
+    }
+    .col-5 img {
+        width: 100%;
+    }
+    .col-6 img {
+        width: 100%;
+    }
+    .container-visit h2 {
+        font-size: 28px;
+        line-height: 50px;
+    }
+    .container-visit {
+        justify-content: center;
+        width: 100%;
+        padding: 50px;
+    }
+    .hero-container img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 30px 40px;
+    }
+    .container {
+        padding: unset;
+    }
+    .inner-box img {
+        width: 100%;
+        margin-top: -60px;
+    }
+    .hero-wrapper {
+        width: 100%;
+        text-align: center;
+    }
+    .btn-container {
+        margin-top: 60px;
+        justify-content: center;
+    }
+    .large-btn {
+        width: 100%;
+    }
+    .card {
+        margin-top: 100px;
+    }
+    .col-3 {
+        width: 50%;
+    }
+    .col-6 {
+        width: 100%;
+    }
+    .action-box {
+        text-align: center;
+    }
+    .action-box h2 {
+        width: 100%;
+        font-size: 28px;
+    }
+    .action-box p {
+        font-size: 12px;
+    }
+    .select-container {
+        padding: 16px 15px;
+    }
+    .select-container h3 {
+        font-size: 18px;
+    }
+    select {
+        padding: 8px 8px;
+        font-size: 10px;
+    }
+    .plantsbox h4 {
+        font-size: 13px;
+    }
+    .plantsbox p {
+        font-size: 13px;
+    }
+    .hero-wrapper h1 {
+        width: 100%;
+    }
+    .hero-wrapper p {
+        width: 100%;
+    }
+    .footer-wrapper {
+        gap: 30px;
+    }
+    .footer-logo h4 {
+        font-size: 14px;
+    }
+    .footer-logo h3 {
+        font-size: 14px;
+    }
+    .footer-logo p {
+        font-size: 11px;
+    }
+    .footer-logo:nth-child(1) p {
+        width: 230px;
+        height: 40px;
+        font-size: 10px;
+    }
+    .footer-logo input {
+        padding: 8px 50px 8px 13px;
+        font-size: 10px;
+    }
+    .visit-btn {
+        padding: 5px 10px;
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .container-visit {
+        gap: 15px;
+    }
+    .container-visit h2 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+@media (max-width: 700px) {
+    .nav,
+    .icons-btn {
+        display: none;
+    }
+    .hero {
+        margin-top: unset;
+    }
+    .show {
+        display: flex;
+    }
+    .mobile-btn {
+        display: block;
+    }
+    .header {
+        padding: unset;
+    }
+}
+@media (max-width: 425px) {
+    .hero-container {
+        flex-direction: column;
+    }
+    .footer-wrapper {
+        flex-wrap: wrap;
+    }
+    .footer-wrapper .footer-logo:nth-child(1) {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .footer-logo:nth-child(1) p {
+        width: 100%;
+        height: 100%;
+    }
+    .footer-logo h4 {
+        font-size: 12px;
+    }
+    .footer-logo p {
+        font-size: 10px;
+    }
+    .footer-logo h3 {
+        font-size: 12px;
+    }
+    .hero-section {
+        padding-bottom: 200px;
+    }
+    .container-visit h2 {
+        font-size: 14px;
+    }
+    .container-visit {
+        align-items: center;
+    }
+    .action-box h2 {
+        font-size: 22px;
+    }
+    .action-box p {
+        font-size: 10px;
+        margin-bottom: 45px;
+    }
+    .col-5 {
+        width: 50%;
+    }
+    .col-3 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 376px) {
+    .hero-wrapper h1 {
+        font-size: 32px;
+    }
+    .hero-wrapper p {
+        font-size: 10px;
+        padding: 0 10px;
+    }
+    .btn-container {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .select-container {
+        margin-top: 30px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .col-5 {
+        width: 100%;
+    }
+    .footer-wrapper .footer-logo:nth-child(1) {
+        padding: unset;
+    }
+    .footer-wrapper {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 321px) {
+    .mobile-menu {
+        width: 55%;
+    }
+    .action-box h2 {
+        font-size: 20px;
+    }
+    .action-box p {
+        font-size: 8px;
+    }
+    .large-btn {
+        font-size: 18px;
+    }
+    .large-btn span:nth-child(1) {
+        font-size: 14px;
+    }
+}
